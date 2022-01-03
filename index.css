@@ -10,6 +10,15 @@ p {
     font-size: 2rem;
 }
 
+h5 {
+    font-size: 2rem;
+    ;
+}
+
+body {
+    margin: 0;
+}
+
 .grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -43,6 +52,8 @@ p {
 
 .iContain {
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .comments {
