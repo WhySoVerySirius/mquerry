@@ -2,18 +2,20 @@
     box-sizing: border-box;
 }
 
-h1 {
+
+/* h1 {
     font-size: 3rem;
 }
 
 p {
     font-size: 2rem;
+    margin-bottom: auto;
 }
 
 h5 {
     font-size: 2rem;
     ;
-}
+} */
 
 body {
     margin: 0;
@@ -21,7 +23,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 2fr 1fr;
     grid-gap: 1rem;
     background-color: chartreuse;
@@ -30,11 +32,12 @@ body {
 
 .bigImg {
     width: 100%;
-    height: 80vh;
+    height: 60vw;
 }
 
 .smallImg {
     width: 100%;
+    height: 20vw;
 }
 
 .container1 {
@@ -48,12 +51,15 @@ body {
     background: white;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .iContain {
     padding: 3rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .comments {
